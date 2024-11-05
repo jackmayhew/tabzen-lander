@@ -16,7 +16,7 @@
             <div
               class="py-10 px-8 bg-blue-50 h-full flex flex-col items-center md:w-3/4 lg:w-full mx-auto rounded-3xl relative">
               <p class="text-base text-pretty font-display text-blue-900">{{ review.text }}</p>
-              <div class="h-6 w-6 bg-blue-50 rounded bottom-[-10px] -z-50 rotate-45 absolute"></div>
+              <div class="h-6 w-6 bg-blue-50 rounded bottom-[-10px] z-1 rotate-45 absolute"></div>
             </div>
             <div class="flex-shrink-0 block order-last mt-6">
               <div class="flex flex-col gap-3 items-center text-left justify-center text-center">
