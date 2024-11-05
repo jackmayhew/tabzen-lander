@@ -7,9 +7,9 @@
         </p>
         <p class="mt-4 text-slate-600 text-base lg:w-3/4 lg:mx-auto">
           TabZen is a lightweight Chrome extension that removes disruptive ads, overlays, and visual clutter from your
-          favorite tab websites. Experience uninterrupted access to tabs and chords.
+          favorite tab websites. Experience uninterrupted access to your tabs and chords.
         </p>
-        <div class="mt-12 flex flex-col lg:flex-row md:items-center w-full justify-center">
+        <div class="mt-4 flex flex-col lg:flex-row md:items-center w-full justify-center">
           <div class="relative flex flex-col gap-2 md:flex-row">
             <a aria-label="yAdd to Chrome" href="#"
               class="items-center inline-flex w-full focus:outline-disc bg-green-500 duration-500 focus:ring-2 focus:ring-green-600 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-green-600 justify-center px-6 py-1 rounded-full text-white text-center text-sm">
