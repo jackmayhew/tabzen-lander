@@ -39,7 +39,7 @@
 const faqs = [
   { id: 1, question: 'What is TabZen?', answer: 'TabZen is a Chrome extension that removes distracting elements from guitar, bass and drum tabs & chords providing a clean and focused viewing experience.' },
   { id: 2, question: 'How does TabZen work?', answer: 'TabZen automatically identifies and hides disruptive ads, overlays, and other non-essential content on sites like Songsterr and Ultimate Guitar.' },
-  { id: 3, question: 'Can I customize what TabZen hides?', answer: "While TabZen's default settings are designed to provide the optimal viewing experience, you can further customize which elements are hidden by accessing the extension's options." },
+  { id: 3, question: 'Will TabZen interfere with my ability to interact with tabs?', answer: "No, TabZen only hides non-essential elements, leaving the interactive parts of your tabs fully functional." },
   { id: 4, question: 'Does TabZen require any setup or configuration?', answer: 'No, TabZen is a plug-and-play extension. Simply install it, and it will automatically start decluttering your tab-viewing experience.' },
   { id: 5, question: 'Is TabZen free to use?', answer: 'Yes, TabZen is a free Chrome extension available to all users.' },
 ]

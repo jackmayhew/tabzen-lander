@@ -2,7 +2,7 @@
   <section>
     <div class="relative flex flex-col px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:pb-24 lg:pt-12">
       <div class="text-center ">
-        <h1 class="text-5xl font-semibold font-display text-blue-950 sm:text-8xl">Take Back Your Tabs! </h1>
+        <h1 class="text-5xl font-semibold font-display text-balance text-blue-950 sm:text-8xl">Take Back Your Tabs! </h1>
         <p class="mt-4 text-slate-600 text-base max-w-2xl mx-auto">
           TabZen is a lightweight extension that removes disruptive ads and visual clutter from your guitar, bass and drum tabs & chords.
         </p> 
@@ -19,7 +19,7 @@
           </div>
         </div>
       </div>
-      <div class="grid mt-12 lg:mt-6 lg:grid-cols-2">
+      <div class="grid mt-12 mb-6 sm:mb-16 lg:mb-0 lg:mt-6 lg:grid-cols-2">
         <img src="/public/images/hero1.png" class="rounded-3xl  rotate-6  w-full " alt="#_">
         <img src="/public/images/hero2.png" class="rounded-3xl  -rotate-12  w-full " alt="#_">
       </div>      

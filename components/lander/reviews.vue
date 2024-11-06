@@ -41,7 +41,7 @@
 <script setup>
 const reviews = [
   { id: 1, name: 'John S.', title: 'Guitarist', image: '/images/head1.svg', alt: 'Roberta Johnson', text: "TabZen is a game-changer for my guitar practice sessions. No more frustrating pop-ups or intrusive ads - just clean, focused tabs." },
-  { id: 2, name: 'Jaco P.', title: 'Bassist', image: '/images/head2.svg', alt: 'John Doe', text: "As a bass teacher, I've recommended TabZen to all my students. It's the perfect tool to help them stay engaged and improve their skills." },
+  { id: 2, name: 'Jaco P.', title: 'Bassist', image: '/images/head2.svg', alt: 'John Doe', text: "As a bass teacher, I've recommended TabZen to all my students. It's the perfect tool to help them stay focused and improve their skills." },
   { id: 3, name: 'Kim D.', title: 'Bassist', image: '/images/head3.svg', alt: 'Jane Smith', text: "Hands down the best way to enjoy bass tabs online. TabZen has become an essential part of my daily workflow." },
 ]
 </script>
