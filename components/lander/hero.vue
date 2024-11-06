@@ -17,9 +17,6 @@
               Add to Firefox
             </a>
           </div>
-          <!-- <div class="grid justify-between grid-cols-3 sm:grid-cols-3 mt-12 lg:mt-0 lg:ml-auto"> 
-            <img src="/brands/8.svg" class="h-8" alt="#_"><img src="/brands/5.svg" class="h-8" alt="#_">
-            <img src="/brands/7.svg" class="h-8" alt="#_"> </div> -->
         </div>
       </div>
       <div class="grid mt-12 lg:mt-6 lg:grid-cols-2">
