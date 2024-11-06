@@ -3,10 +3,16 @@ module.exports = {
     "./components/**/*.{vue,js}",
     "./layouts/**/*.vue",
     "./pages/**/*.vue",
-    "./app.vue"
+    "./app.vue",
   ],
   theme: {
-    extend: {},
+    screens: {
+      xs: "540px",
+      ...require("tailwindcss/defaultTheme").screens,
+    },
+    extend: {
+      colors: {},
+    },
   },
   plugins: [],
-}
+};

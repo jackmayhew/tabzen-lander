@@ -6,6 +6,10 @@
     </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { setupHead } from '../components/meta/headConfig.js'
+
+setupHead()
+</script>
 
 <style scoped></style>

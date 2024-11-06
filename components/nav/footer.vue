@@ -2,7 +2,7 @@
   <footer class="overflow-hidden relative mt-24">
     <div class="px-8 md:px-12 lg:px-24 max-w-7xl mx-auto ">
       <div class="gap-8 flex flex-col md:flex-row md:items-center md:justify-between	">
-        <a aria-label="TabZen" href="/"
+        <a aria-label="TabZen" href="https://tabzen.app/"
           class="inline-flex items-center text-blue-950 font-display">
           <span>
             <img src="../../public/logo/large.svg" alt="tabzen logo" />
@@ -51,7 +51,7 @@
         </div>
         <div x-data="{ currentYear: new Date().getFullYear() }">
           <p class="mt-8 text-xs leading-5 text-slate-500 md:order-1 md:mt-0">
-            © <span x-text="currentYear">{{ new Date().getFullYear() }}</span> <a href="#">TabZen</a>. All rights reserved
+            © <span x-text="currentYear">{{ new Date().getFullYear() }}</span> <a href="https://tabzen.app/">TabZen</a>. All rights reserved
           </p>
         </div>
       </div>

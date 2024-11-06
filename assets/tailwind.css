@@ -1,32 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap"); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-  /* font-family: "Love Ya Like A Sister", serif; */
   font-weight: 400;
 }
 
-.font-display {
-  font-family: "Love Ya Like A Sister", serif;
+@font-face {
+  font-family: InterVariable;
+  font-style: normal;
+  /* font-weight:  900; */
+  font-display: swap;
+  src: url("/font-files/InterVariable-Italic.woff2") format("woff2");
 }
 
-
+.font-display {
+  font-family: InterVariable;
+}
 
 .emphasis {
   font-style: italic;
 }
-
-
-
-
-/* @font-face {
-    font-family: InterVariable;
-    font-style: normal;
-    font-weight:  900;
-    font-display: swap;
-    src: url('../public/font-files/InterVariable-Italic.woff2') format('woff2');
-  } */
