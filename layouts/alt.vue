@@ -1,15 +1,15 @@
 <template>
     <div class="selection:bg-green-400 selection:text-white bg-white flex flex-col min-h-svh">
-        <Navbar />
+        <AltNavbar />
         <NuxtPage />
-        <Footer />
+        <AltFooter />
     </div>
 </template>
 
 <script setup>
 import { setupHead } from '../components/meta/headConfig.js'
 
-setupHead("TabZen - Hide Overlays on Your Favourite Tab Sites")
+setupHead("TabZen - Terms of Service")
 </script>
 
 <style scoped></style>

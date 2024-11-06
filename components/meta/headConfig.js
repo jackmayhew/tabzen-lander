@@ -1,6 +1,6 @@
-export function setupHead() {
+export function setupHead(title) {
   useHead({
-    title: 'TabZen - Hide Overlays on Your Favourite Tab Sites',
+    title: title,
     meta: [
       { name: "description", content: "Enhances your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
       { charset: "UTF-8" },
@@ -27,7 +27,8 @@ export function setupHead() {
       { rel: "manifest", href: "/favicon/site.webmanifest" },
       { rel: "canonical", href: "https://tabzen.app/" },
       // preloads
-      { rel: "preload", href: "/public/images/hero.png", as: "image" },
+      { rel: "preload", href: "/public/images/hero1.png", as: "image" },
+      { rel: "preload", href: "/public/images/hero2.png", as: "image" },
       { rel: "preload", href: "/font-files/InterVariable-Italic.woff22", as: "font", type: "font/woff2", crossorigin: "anonymous" },
       // { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" }
     ],

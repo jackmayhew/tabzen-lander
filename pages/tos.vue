@@ -112,7 +112,9 @@
 </template>
 
 <script setup>
-
+definePageMeta({
+  layout: "alt",
+});
 </script>
 
 <style scoped></style>
