@@ -69,9 +69,11 @@ const navLinks = [
 const smoothScroll = (target) => {
   const element = document.querySelector(target);
   if (element) {
-    element.scrollIntoView({
+    const rect = element.getBoundingClientRect();
+    const offset = 75;
+    window.scrollTo({
+      top: window.scrollY + rect.top - offset,
       behavior: 'smooth',
-      block: 'start'
     });
   }
 }
