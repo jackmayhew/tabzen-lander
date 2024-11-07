@@ -1,6 +1,9 @@
 export function setupHead(title) {
   useHead({
     title: title,
+    htmlAttrs: {
+      lang: 'en',
+    },
     meta: [
       { name: "description", content: "Enhances your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
       { charset: "UTF-8" },
