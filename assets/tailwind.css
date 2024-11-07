@@ -8,14 +8,16 @@ body {
 }
 
 @font-face {
-  font-family: InterVariable;
+  font-family: 'InterVariable';
   font-style: normal;
-  font-display: swap;
+  font-weight: 400;  /* Specify the weight if needed */
+  font-display: swap;  /* or optional */
   src: url("/font-files/InterVariable-Italic.woff2") format("woff2");
 }
 
 .font-display {
-  font-family: InterVariable;
+  font-family: 'InterVariable', sans-serif;
+
 }
 
 .emphasis {
