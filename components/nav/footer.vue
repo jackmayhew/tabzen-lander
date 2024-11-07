@@ -60,10 +60,10 @@
     class="fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-dvh flex overflow-y-auto overflow-x-hidden">
     <div @click.stop ref="modalWrapper" class="relative p-4 w-full max-w-2xl">
       <div class="relative bg-gray-100 border border-gray-200 rounded-lg shadow max-h-[75vh] overflow-y-auto">
-        <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t border-blue-900">
-          <h3 class="text-2xl font-semibold text-blue-950">Terms of Service - TabZen</h3>
+        <div class="flex items-center justify-between py-4 mx-4 mb-4 md:p-5 border-b rounded-t border-blue-900">
+          <h3 class="text-2xl font-semibold text-blue-950">Terms of Service</h3>
           <button @click="toggleModal" type="button"
-            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-blue-950 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center">
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-blue-950 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center ">
             <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
@@ -103,7 +103,7 @@ const tos = [
   { id: 4, title: 'No Data Collection', text: 'We do not collect any personal data or browsing information through the TabZen browser extension. The Extension operates solely to block in-house advertisements on supported websites and does not track, store, or transmit any user information.', },
   { id: 5, title: 'Intellectual Property', text: 'The Extension, including its code, design, and documentation, is the property of TabZen. You may not modify, distribute, or create derivative works of the Extension without prior written permission. We reserve the right to update or discontinue the Extension at any time.', },
   { id: 6, title: 'Termination', text: 'We reserve the right to terminate or suspend your access to the Extension at any time, for any reason, including if we reasonably believe you have violated this Agreement or engaged in behavior that disrupts the function of the Extension.', },
-  { id: 7, title: 'Governing Law', text: 'This Agreement shall be governed by and construed in accordance with the laws of the Province of Québec, Canada, without giving effect to any choice or conflict of law provision. Any legal actions or disputes related to this Agreement will be resolved exclusively in the jurisdiction of [Your Province].', },
+  { id: 7, title: 'Governing Law', text: 'This Agreement shall be governed by and construed in accordance with the laws of the Province of Québec, Canada, without giving effect to any choice or conflict of law provision. Any legal actions or disputes related to this Agreement will be resolved exclusively in the jurisdiction of Québec.', },
 ]
 
 const smoothScroll = (target) => {

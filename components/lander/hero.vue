@@ -4,7 +4,7 @@
       <div class="text-center ">
         <h1 class="text-5xl font-semibold font-display text-balance text-blue-950 sm:text-8xl">Take Back Your Tabs! </h1>
         <p class="mt-4 text-slate-600 text-base max-w-2xl mx-auto">
-          TabZen is a lightweight browser extension that removes disruptive ads and visual clutter from your guitar, bass and drum tabs & chords.
+          TabZen is a browser extension that removes disruptive ads and visual clutter from your guitar, bass and drum tabs & chords.
         </p> 
         <div class="mt-6 flex flex-col lg:flex-row lg:items-center w-full">
           <div class="relative flex flex-col justify-center gap-2 md:flex-row xs:w-1/2 xs:mx-auto md:w-full ">
