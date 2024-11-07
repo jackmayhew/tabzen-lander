@@ -34,7 +34,7 @@
                 stroke-width="0" fill="currentColor"></path>
             </svg>
           </a>
-          <a aria-label="tabzen github" href="#"
+          <a aria-label="tabzen github" href="https://github.com/jackmayhew/tabzen-extension" target="_blank" rel="noopener noreferrer"
             class="text-blue-500 hover:text-blue-600 bg-blue-50 rounded-full h-8 w-8 inline-flex items-center justify-center">
             <span class="sr-only">GitHub</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler w-4 h-4 icon-tabler-brand-github-filled"
