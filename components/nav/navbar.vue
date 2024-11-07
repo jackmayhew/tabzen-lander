@@ -26,7 +26,7 @@
                 <li @click="mobileMenu = false" v-for="(link, index) in navLinks" :key="link.id"
                   :class="{ 'mb-1': index !== navLinks.length - 1, 'mb-0': index === navLinks.length - 1 }">
                   <a @click.prevent="smoothScroll(link.href)" :aria-label="link.ariaLabel" :href="link.href"
-                    class="block py-2 px-3 sm:mt-0 hover:bg-blue-500 hover:text-white md:text-slate-600 md:hover:text-blue-500 rounded md:hover:bg-transparent md:border-0 md:p-0">
+                    class="block py-2 px-3 sm:mt-0 hover:bg-blue-500 text-blue-950 hover:text-white md:text-slate-600 md:hover:text-blue-500 rounded md:hover:bg-transparent md:border-0 md:p-0">
                     {{ link.text }}
                   </a>
                 </li>

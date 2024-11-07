@@ -8,7 +8,7 @@
               Discover the Power of Distraction-Free Tabs
             </p>
             <p class="text-slate-600 mt-4 md:w-3/4 mx-auto">
-              Get TabZen now and experience seamless, focused tab viewing.
+              Download TabZen and experience seamless, focused tab and chord viewing.
             </p>
           </div>
           <div class="mt-8 flex flex-col md:flex-row lg:items-center w-full justify-center">

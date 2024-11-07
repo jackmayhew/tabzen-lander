@@ -15,13 +15,13 @@
             <ul
               class="prose-styles list-disc grid grid-cols-1 md:grid-cols-2 gap-x-12 w-fit mx-auto list-none sm:list-disc">
               <li v-for="faq in faqs" :key="faq.id" class="mb-4">
-                <strong class="font-display text-2xl">{{ faq.question }}</strong> <br>
-                {{ faq.answer }}
+                <strong class="font-display text-2xl text-blue-950 font-semibold">{{ faq.question }}</strong> <br>
+                <p class="text-slate-600">{{ faq.answer }}</p>
               </li>
-              <li class="">
-                <strong class="font-display text-2xl"> Which websites does TabZen work on?</strong> <br>
+              <li class="text-slate-600">
+                <strong class="font-display text-2xl text-blue-950"> Which websites does TabZen work on?</strong> <br>
                 TabZen currently targets the following popular tab sites:
-                <ul class="ml-4 mt-2 list-disc">
+                <ul class="ml-4 mt-2 list-disc text-slate-600">
                   <li>Ultimate Guitar</li>
                   <li>Songsterr</li>
                   <li>Chordify</li>
