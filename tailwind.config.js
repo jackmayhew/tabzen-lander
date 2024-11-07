@@ -11,7 +11,9 @@ module.exports = {
       ...require("tailwindcss/defaultTheme").screens,
     },
     extend: {
-      colors: {},
+      colors: {
+        "blue-500": `#2e74d3`,
+      },
     },
   },
   plugins: [],
