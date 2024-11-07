@@ -21,3 +21,7 @@ body {
 .emphasis {
   font-style: italic;
 }
+
+.lock-scroll {
+  overflow: hidden;
+}

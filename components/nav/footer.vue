@@ -2,8 +2,7 @@
   <footer class="overflow-hidden relative mt-24">
     <div class="px-8 md:px-12 lg:px-24 max-w-7xl mx-auto ">
       <div class="gap-8 flex flex-col md:flex-row md:items-center md:justify-between	">
-        <a aria-label="TabZen" href="https://tabzen.app/"
-          class="inline-flex items-center text-blue-950 font-display">
+        <a aria-label="TabZen" href="https://tabzen.app/" class="inline-flex items-center text-blue-950 font-display">
           <span>
             <img src="../../public/logo/large.svg" alt="tabzen logo" />
           </span>
@@ -12,13 +11,12 @@
         <div class="lg:col-span-full lg:ml-auto">
           <ul role="list" class="flex flex-col gap-1 md:flex-row md:items-center md:gap-4 lg:gap-6 w-fit">
             <li v-for="link in navLinks" :key="link.id">
-              <a @click.prevent="smoothScroll(link.href)" :aria-label="link.ariaLabel"
-                :href="link.href" class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500"> {{
-                  link.text }}
+              <a @click.prevent="smoothScroll(link.href)" :aria-label="link.ariaLabel" :href="link.href"
+                class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500"> {{link.text }}
               </a>
             </li>
-            <li><a href="mailto:jmandevs@gmail.com" aria-label="Contact" class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500">Contact</a></li>
-            <li><NuxtLink href="/tos" aria-label="Terms of Service" class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500">TOS</NuxtLink></li>
+            <li><a href="mailto:jmandevs@gmail.com" aria-label="Contact"class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500">Contact</a></li>
+            <li><button @click="toggleModal"class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500">TOS</button></li>
           </ul>
         </div>
       </div>
@@ -36,7 +34,7 @@
                 stroke-width="0" fill="currentColor"></path>
             </svg>
           </a>
-          <a aria-label="tabzen github"  href="#"
+          <a aria-label="tabzen github" href="#"
             class="text-blue-500 hover:text-blue-600 bg-blue-50 rounded-full h-8 w-8 inline-flex items-center justify-center">
             <span class="sr-only">GitHub</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler w-4 h-4 icon-tabler-brand-github-filled"
@@ -51,19 +49,61 @@
         </div>
         <div x-data="{ currentYear: new Date().getFullYear() }">
           <p class="mt-8 text-xs leading-5 text-slate-500 md:order-1 md:mt-0">
-            © <span x-text="currentYear">{{ new Date().getFullYear() }}</span> <a href="https://tabzen.app/">TabZen</a>. All rights reserved
+            © <span x-text="currentYear">{{ new Date().getFullYear() }}</span> <a href="https://tabzen.app/">TabZen</a>.
+            All rights reserved
           </p>
         </div>
       </div>
     </div>
   </footer>
+  <div v-if="isModalOpen" tabindex="-1"
+    class="fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-dvh flex overflow-y-auto overflow-x-hidden">
+    <div @click.stop ref="modalWrapper" class="relative p-4 w-full max-w-2xl">
+      <div class="relative bg-gray-100 border border-gray-200 rounded-lg shadow max-h-[75vh] overflow-y-auto">
+        <div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t border-blue-900">
+          <h3 class="text-2xl font-semibold text-blue-950">Terms of Service - TabZen</h3>
+          <button @click="toggleModal" type="button"
+            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-blue-950 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center">
+            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+            </svg>
+            <span class="sr-only">Close modal</span>
+          </button>
+        </div>
+        <div v-for="item in tos" :key="item.id" class="py-4 px-6">
+          <div class="text-base leading-relaxed text-slate-600">
+            <h2 class="text-xl text-blue-950 font-bold">{{ item.title }}</h2>
+            <p>{{ item.text }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
+
+import { ref, watch } from "vue";
+import { onClickOutside } from '@vueuse/core'
+
+const isModalOpen = ref(false)
+const modalWrapper = ref(null)
+
 const navLinks = [
   { id: 1, text: 'About', href: '#about', ariaLabel: 'About', title: 'About', },
   { id: 2, text: 'FAQ', href: '#faq', ariaLabel: 'FAQ', title: 'FAQ', },
   { id: 3, text: 'Reviews', href: '#reviews', ariaLabel: 'Reviews', title: 'Reviews', },
+]
+
+const tos = [
+  { id: 1, title: 'Introduction', text: 'This Terms of Service agreement ("Agreement") governs your use of the TabZen browser extension ("the Extension"). By installing and using the Extension, you agree to be bound by the terms and conditions of this Agreement.', },
+  { id: 2, title: 'Scope of the Extension', text: 'The Extension is designed to block in-house advertisements from certain websites, including but not limited to Songsterr and Ultimate Guitar. The Extension does not interact with or modify any content on those websites other than removing in-house advertisements. While the Extension aims to block ads, it cannot guarantee that all ads will be blocked, as website changes may affect functionality. The Extension is not affiliated with any of the websites it interacts with.', },
+  { id: 3, title: 'Limitations and Disclaimers', text: 'The Extension is provided "as is" without warranty of any kind, either express or implied. We do not guarantee that the Extension will be error-free, will perform as expected in all browser configurations, or will work indefinitely on all websites. You use the Extension at your own risk. We are not responsible for any damage or disruption caused by using the Extension, including but not limited to browser crashes, data loss, or conflicts with other extensions.', },
+  { id: 4, title: 'No Data Collection', text: 'We do not collect any personal data or browsing information through the TabZen browser extension. The Extension operates solely to block in-house advertisements on supported websites and does not track, store, or transmit any user information.', },
+  { id: 5, title: 'Intellectual Property', text: 'The Extension, including its code, design, and documentation, is the property of TabZen. You may not modify, distribute, or create derivative works of the Extension without prior written permission. We reserve the right to update or discontinue the Extension at any time.', },
+  { id: 6, title: 'Termination', text: 'We reserve the right to terminate or suspend your access to the Extension at any time, for any reason, including if we reasonably believe you have violated this Agreement or engaged in behavior that disrupts the function of the Extension.', },
+  { id: 7, title: 'Governing Law', text: 'This Agreement shall be governed by and construed in accordance with the laws of the Province of Québec, Canada, without giving effect to any choice or conflict of law provision. Any legal actions or disputes related to this Agreement will be resolved exclusively in the jurisdiction of [Your Province].', },
 ]
 
 const smoothScroll = (target) => {
@@ -77,6 +117,20 @@ const smoothScroll = (target) => {
     });
   }
 }
+
+const toggleModal = () => {
+  isModalOpen.value = !isModalOpen.value;
+};
+
+onClickOutside(modalWrapper, () => isModalOpen.value = false)
+
+watch(isModalOpen, (newValue) => {
+  if (newValue) {
+    document.body.classList.add('lock-scroll');
+  } else {
+    document.body.classList.remove('lock-scroll');
+  }
+});
 </script>
 
 <style scoped></style>

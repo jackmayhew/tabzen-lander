@@ -9,7 +9,7 @@
               <span>
                 <img src="../../public/logo/small.svg" alt="TabZen Logo">
               </span>
-              <span class="text-3xl font-display "> &nbsp;TabZen</span>
+              <span class="text-3xl font-display"> &nbsp;TabZen</span>
             </a>
             <button ref="burgerButton" @click="toggleMobileMenu" aria-label="Toggle Menu"
               class="inline-flex items-center justify-center p-2 pr-0 text-blue-950 hover:text-blue-500 focus:outline-none focus:text-blue-500 md:hidden">
@@ -23,7 +23,7 @@
             <div ref="target" class="md:block md:w-auto relative" :class="mobileMenu ? 'w-full' : 'hidden'">
               <ul
                 class="font-medium flex flex-col md:items-center p-4 md:p-0 mt-2 absolute w-full md:relative z-10 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-6 lg:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
-                <li @click="mobileMenu = false" v-for="(link, index) in navLinks" :key="link.id"
+                <li @click="mobileMenu = false" v-for="(link, index) in navLinks" :key="link.id" class="md:mb-0"
                   :class="{ 'mb-1': index !== navLinks.length - 1, 'mb-0': index === navLinks.length - 1 }">
                   <a @click.prevent="smoothScroll(link.href)" :aria-label="link.ariaLabel" :href="link.href"
                     class="block py-2 px-3 sm:mt-0 hover:bg-blue-500 text-blue-950 hover:text-white md:text-slate-600 md:hover:text-blue-500 rounded md:hover:bg-transparent md:border-0 md:p-0">
