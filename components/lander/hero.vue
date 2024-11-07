@@ -20,8 +20,8 @@
         </div>
       </div>
       <div class="grid mt-12 mb-6 sm:mb-16 lg:mb-0 lg:mt-6 lg:grid-cols-2">
-        <NuxtImg preload src="/images/hero1.png" class="rounded-3xl  rotate-6  w-full" alt="bass tab before tabzen" />
-        <NuxtImg preload src="/images/hero2.png" class="rounded-3xl  -rotate-12  w-full" alt="bass tab after tabzen" />
+        <img src="/images/hero1.png" class="rounded-3xl  rotate-6  w-full " alt="bass tab before tabzen" />
+        <img src="/images/hero2.png" class="rounded-3xl  -rotate-12  w-full " alt="bass tab after tabzen" />
       </div>      
     </div>
   </section>
