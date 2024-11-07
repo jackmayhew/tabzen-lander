@@ -10,7 +10,7 @@
           See how it's improved their online tab experience.
         </p>
       </div>
-      <ol role="list" class="grid grid-cols-1 gap-y-8 gap-x-2 mt-12 text-center lg:grid-cols-3 lg:mt-24">
+      <ol role="list" class="grid grid-cols-1 gap-y-8 gap-x-2 mt-12 text-center lg:grid-cols-3">
         <li v-for="review in reviews" :key="review.id">
           <div class="flex flex-col justify-between h-full relative">
             <div

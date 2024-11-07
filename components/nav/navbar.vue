@@ -12,7 +12,7 @@
               <span class="text-3xl font-display "> &nbsp;TabZen</span>
             </a>
             <button @click="toggleMobileMenu" aria-label="Toggle Menu"
-              class="inline-flex items-center justify-center p-2 text-blue-950 hover:text-green-500 focus:outline-none focus:text-blue-950 md:hidden">
+              class="inline-flex items-center justify-center p-2 text-blue-950 hover:text-blue-500 focus:outline-none focus:text-blue-950 md:hidden">
               <svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                 <path :class="{ hidden: mobileMenu, 'inline-flex': !mobileMenu }" class="inline-flex'"
                   stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -25,13 +25,13 @@
                 class="font-medium flex flex-col md:items-center p-4 md:p-0 mt-4 absolute w-full md:relative z-10 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-6 lg:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
                 <li @click="mobileMenu = false" v-for="link in navLinks" :key="link.id" class="mb-1 md:mb-0">
                   <a @click.prevent="smoothScroll(link.href)" :aria-label="link.ariaLabel" :href="link.href"
-                    class="block py-2 px-3 mt-1 sm:mt-0 hover:bg-green-500 hover:text-white md:text-slate-600 md:hover:text-slate-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
+                    class="block py-2 px-3 mt-1 sm:mt-0 hover:bg-blue-500 hover:text-white md:text-slate-600 md:hover:text-blue-500 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0">
                     {{ link.text }}
                   </a>
                 </li>
                 <li class="hidden md:flex">
                   <a aria-label="Add to Firefox" href="#"
-                    class="items-center inline-flex w-full focus:outline-disc bg-green-50 duration-200 focus:ring-2 focus:ring-green-60 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-green-100 gap-3 justify-center px-6 py-1 rounded-full text-green-600 text-center text-sm">
+                    class="items-center inline-flex w-full focus:outline-disc bg-blue-50 duration-200 focus:ring-2 focus:ring-blue-60 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-100 gap-3 justify-center px-6 py-1 rounded-full text-blue-600 text-center text-sm">
                     Add to Chrome
                   </a>
                 </li>

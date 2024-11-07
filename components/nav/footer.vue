@@ -13,19 +13,19 @@
           <ul role="list" class="flex flex-col gap-1 md:flex-row md:items-center md:gap-4 lg:gap-6 w-fit">
             <li v-for="link in navLinks" :key="link.id">
               <a @click.prevent="smoothScroll(link.href)" :aria-label="link.ariaLabel"
-                :href="link.href" class="text-sm uppercase font-medium text-slate-500 hover:text-green-500"> {{
+                :href="link.href" class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500"> {{
                   link.text }}
               </a>
             </li>
-            <li><a href="mailto:jmandevs@gmail.com" aria-label="Contact" class="text-sm uppercase font-medium text-slate-500 hover:text-green-500">Contact</a></li>
-            <li><NuxtLink href="/tos" aria-label="Terms of Service" class="text-sm uppercase font-medium text-slate-500 hover:text-green-500">TOS</NuxtLink></li>
+            <li><a href="mailto:jmandevs@gmail.com" aria-label="Contact" class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500">Contact</a></li>
+            <li><NuxtLink href="/tos" aria-label="Terms of Service" class="text-sm uppercase font-medium text-slate-500 hover:text-blue-500">TOS</NuxtLink></li>
           </ul>
         </div>
       </div>
       <div class="mt-0 md:mt-8 py-8 md:flex md:items-center md:justify-between">
         <div class="flex space-x-3 md:order-2">
           <a aria-label="tabzen twitter" href="#"
-            class="text-green-500 hover:text-green-600 bg-green-50 rounded-full h-8 w-8 inline-flex items-center justify-center">
+            class="text-blue-500 hover:text-blue-600 bg-blue-50 rounded-full h-8 w-8 inline-flex items-center justify-center">
             <span class="sr-only">Twitter</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler w-4 h-4 icon-tabler-brand-twitter-filled"
               viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
@@ -37,7 +37,7 @@
             </svg>
           </a>
           <a aria-label="tabzen github"  href="#"
-            class="text-green-500 hover:text-green-600 bg-green-50 rounded-full h-8 w-8 inline-flex items-center justify-center">
+            class="text-blue-500 hover:text-blue-600 bg-blue-50 rounded-full h-8 w-8 inline-flex items-center justify-center">
             <span class="sr-only">GitHub</span>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler w-4 h-4 icon-tabler-brand-github-filled"
               viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round"
