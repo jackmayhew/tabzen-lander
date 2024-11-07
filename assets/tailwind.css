@@ -10,14 +10,12 @@ body {
 @font-face {
   font-family: 'InterVariable';
   font-style: normal;
-  font-weight: 400;  /* Specify the weight if needed */
-  font-display: swap;  /* or optional */
+  font-weight: 400;
   src: url("/font-files/InterVariable-Italic.woff2") format("woff2");
 }
 
 .font-display {
   font-family: 'InterVariable', sans-serif;
-
 }
 
 .emphasis {
