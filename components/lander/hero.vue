@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="relative flex flex-col px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:pb-24 lg:pt-12">
+    <div class="relative flex flex-col px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:pb-24 lg:pt-12 border min-h-screen">
       <div class="text-center">
         <h1 class="gsap-title text-5xl font-semibold font-display text-balance text-blue-950 sm:text-7xl opacity-0">Take Back Your Tabs!</h1>
         <p class="gsap-p mt-4 text-slate-600 text-base max-w-2xl mx-auto opacity-0">
