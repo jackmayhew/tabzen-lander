@@ -14,9 +14,9 @@ module.exports = {
       colors: {
         "blue-500": `#2e74d3`,
       },
-      fontFamily: {
-        display: ['InterVariable', 'sans-serif'],
-      },
+      // fontFamily: {
+      //   display: ['InterVariable', 'sans-serif'],
+      // },
     },
   },
   plugins: [],
