@@ -5,20 +5,20 @@ export function setupHead(title) {
       lang: 'en',
     },
     meta: [
-      { name: "description", content: "Enhances your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
+      { name: "description", content: "Enhance your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
       { charset: "UTF-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1.0" },
       // open graph / facebook
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://tabzen.app/" },
       { property: "og:title", content: "TabZen" },
-      { property: "og:description", content: "Enhances your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
+      { property: "og:description", content: "Enhance your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
       { property: "og:image", content: "../../public/logo/large.svg" },
       // twitter
       { property: "twitter:card", content: "summary_large_image" },
       { property: "twitter:url", content: "https://tabzen.app/" },
       { property: "twitter:title", content: "TabZen" },
-      { property: "twitter:description", content: "Enhances your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
+      { property: "twitter:description", content: "Enhance your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
       { property: "twitter:image", content: "../../public/logo/large.svg" }
     ],
     link: [
@@ -32,6 +32,7 @@ export function setupHead(title) {
       // preloads
       { rel: "preload", href: "/images/hero1.png", as: "image" },
       { rel: "preload", href: "/images/hero2.png", as: "image" },
+      { rel: "preload", href: "/logo/logo.svg", as: "image" },
       { rel: "stylesheet", href: "/font-files/InterVariable-Italic.woff2", as: "font", type: "font/woff2", crossorigin: "anonymous" },
       // { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" }
     ],

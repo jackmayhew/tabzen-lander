@@ -9,7 +9,7 @@
 <script setup>
 import { setupHead } from '../components/meta/headConfig.js'
 
-setupHead("TabZen - Hide Overlays on Your Favourite Tab Sites")
+setupHead("TabZen - Focused Tab Viewing")
 </script>
 
 <style scoped></style>

@@ -1,12 +1,9 @@
 <template>
   <footer class="overflow-hidden relative mt-24">
-    <div class="px-8 md:px-12 lg:px-24 max-w-7xl mx-auto ">
-      <div class="gap-8 flex flex-col md:flex-row md:items-center md:justify-between	">
+    <div class="px-8 md:px-12 lg:px-32 max-w-7xl 2xl:max-w-7xl mx-auto">
+      <div class="gap-8 flex flex-col md:flex-row md:items-center md:justify-between">
         <a aria-label="TabZen" href="https://tabzen.app/" class="inline-flex items-center text-blue-950 font-display">
-          <span>
-            <img src="../../public/logo/large.svg" alt="tabzen logo" />
-          </span>
-          <span class="text-4xl md:text-5xl font-bold">&nbsp;TabZen</span>
+          <img src="../../public/logo/logo.svg" class="h-[40px] md:h-[50px]" alt="tabzen logo" />
         </a>
         <div class="lg:col-span-full lg:ml-auto">
           <ul role="list" class="flex flex-col gap-1 md:flex-row md:items-center md:gap-4 lg:gap-6 w-fit">
@@ -49,8 +46,9 @@
         </div>
         <div x-data="{ currentYear: new Date().getFullYear() }">
           <p class="mt-8 text-xs leading-5 text-slate-500 md:order-1 md:mt-0">
-            © <span x-text="currentYear">{{ new Date().getFullYear() }}</span> <a href="https://tabzen.app/">TabZen</a>.
-            All rights reserved
+            © <span x-text="currentYear">{{ new Date().getFullYear() }}</span> 
+            <a href="https://tabzen.app/" class="hover:text-blue-500"> TabZen</a>.
+            All rights reserved.
           </p>
         </div>
       </div>
@@ -59,11 +57,11 @@
   <div v-if="isModalOpen" tabindex="-1"
     class="fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-dvh flex overflow-y-auto overflow-x-hidden">
     <div @click.stop ref="modalWrapper" class="relative p-4 w-full max-w-2xl">
-      <div class="relative bg-gray-100 border border-gray-200 rounded-lg shadow max-h-[75vh] overflow-y-auto">
+      <div class="relative bg-gray-50 border border-gray-200 rounded-lg shadow max-h-[75vh] overflow-y-auto">
         <div class="flex items-center justify-between py-4 mx-4 mb-4 md:p-5 border-b rounded-t border-blue-900">
           <h3 class="text-2xl font-semibold text-blue-950">Terms of Service</h3>
           <button @click="toggleModal" type="button"
-            class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-blue-950 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center ">
+            class="text-gray-400 bg-transparent  hover:text-blue-950 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-end items-center ">
             <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />

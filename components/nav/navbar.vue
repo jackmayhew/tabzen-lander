@@ -1,18 +1,14 @@
 <template>
-  <section class="w-full sticky top-0 bg-white z-10 md:overflow-hidden">
+  <section class="w-full pt-1 md:pt-0 sticky top-0 bg-white z-10 md:overflow-hidden">
     <div class="relative w-full mx-auto 2xl:max-w-7xl">
-      <div
-        class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-32 max-w-7xl">
+      <div class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-32 max-w-7xl">
         <nav class="w-full relative">
           <div class="flex flex-wrap items-center justify-between mx-auto relative">
             <a href="https://tabzen.app/" class="inline-flex items-center text-blue-950">
-              <span>
-                <img src="../../public/logo/small.svg" alt="TabZen Logo">
-              </span>
-              <span class="text-3xl font-display"> &nbsp;TabZen</span>
+              <img src="../../public/logo/logo.svg" class="h-[30px] md:h-[35px]" alt="TabZen Logo">
             </a>
             <button ref="burgerButton" @click="toggleMobileMenu" aria-label="Toggle Menu"
-              class="inline-flex items-center justify-center p-2 pr-0 text-blue-950 hover:text-blue-500 focus:outline-none focus:text-blue-500 md:hidden">
+              class="inline-flex items-center justify-center pr-0 text-blue-950 hover:text-blue-500 focus:outline-none focus:text-blue-500 md:hidden">
               <svg class="w-6 h-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                 <path :class="{ hidden: mobileMenu, 'inline-flex': !mobileMenu }" class="inline-flex"
                   stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -32,7 +28,7 @@
                 </li>
                 <li class="hidden md:flex">
                   <a aria-label="Add to Firefox" href="#"
-                    class="items-center inline-flex w-full focus:outline-disc bg-blue-50 duration-200 focus:ring-2 focus:ring-blue-60 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-100 gap-3 justify-center px-6 py-1 rounded-full text-blue-600 text-center text-sm">
+                    class="items-center inline-flex w-full hover:-translate-y-1 focus:outline-disc bg-blue-50 duration-200 focus:ring-2 focus:ring-blue-60 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-100 gap-3 justify-center px-6 py-1 rounded-full text-blue-600 text-center text-sm">
                     Add to Chrome
                   </a>
                 </li>
