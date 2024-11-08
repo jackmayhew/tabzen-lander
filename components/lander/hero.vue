@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="relative flex flex-col px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:pb-24 lg:pt-12 min-h-screen sm:min-h-0">
+    <div class="relative flex flex-col px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:pb-24 lg:pt-12 min-h-screen">
       <div class="text-center">
         <h1 class="gsap-title text-5xl font-semibold font-display text-balance text-blue-950 sm:text-7xl opacity-0">Take Back Your Tabs!</h1>
         <p class="gsap-p mt-4 text-slate-600 text-base max-w-2xl mx-auto opacity-0">
@@ -36,19 +36,19 @@ onMounted(() => {
   const context = gsap.context(() => {
     gsap.fromTo(".gsap-title",
       { y: 30, opacity: 0 },
-      { y: 0, opacity: 1, duration: 0.5, ease: "power2.out" }
+      { y: 0, opacity: 1, delay: 0.1, duration: 0.5, ease: "power2.out" }
     );
     gsap.fromTo(".gsap-p",
       { y: 20, opacity: 0 },
-      { y: 0, opacity: 1, delay: 0.3, duration: 0.5, ease: "power2.out" }
+      { y: 0, opacity: 1, delay: 0.4, duration: 0.5, ease: "power2.out" }
     );
     gsap.fromTo(".gsap-btns",
       { y: 20, opacity: 0 },
-      { y: 0, opacity: 1, delay: 0.3, duration: 0.5, ease: "power2.out" }
+      { y: 0, opacity: 1, delay: 0.4, duration: 0.5, ease: "power2.out" }
     );
     gsap.fromTo(".gsap-img",
       { y: 75, autoAlpha: 0 },
-      { y: 0, autoAlpha: 1, stagger: 0.2, delay: 0.6, duration: 0.5, ease: "power2.out" }
+      { y: 0, autoAlpha: 1, stagger: 0.2, delay: 0.4, duration: 0.5, ease: "power2.out" }
     );
   });
   return () => context.revert();
