@@ -13,13 +13,13 @@ export function setupHead(title) {
       { property: "og:url", content: "https://tabzen.app/" },
       { property: "og:title", content: "TabZen" },
       { property: "og:description", content: "Enhance your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
-      { property: "og:image", content: "../../public/logo/large.svg" },
+      { property: "og:image", content: "../../public/logo/logo.svg" },
       // twitter
       { property: "twitter:card", content: "summary_large_image" },
       { property: "twitter:url", content: "https://tabzen.app/" },
       { property: "twitter:title", content: "TabZen" },
       { property: "twitter:description", content: "Enhance your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
-      { property: "twitter:image", content: "../../public/logo/large.svg" }
+      { property: "twitter:image", content: "../../public/logo/logo.svg" }
     ],
     link: [
       // favicons
