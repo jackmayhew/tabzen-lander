@@ -16,7 +16,7 @@ This site is built using Nuxt.js, Tailwind CSS, and GSAP to create a smooth, res
 
 To set up the site locally:
 
-1. Clone the repo: `git clone https://github.com/yourusername/tabzen-landing-page.git`
+1. Clone the repo: `git clone https://github.com/jackmayhew/tabzen-extension.git`
 2. Navigate to the directory: `cd tabzen-landing-page`
 3. Install dependencies: `npm install`
 4. Start the local server: `npm run dev`
