@@ -1,75 +1,30 @@
-# Nuxt Minimal Starter
+# TabZen Landing Page
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+The TabZen landing page is a promotional website for the **[tabzen.app](https://github.com/jackmayhew/tabzen-extension)** browser extension.
 
-## Setup
+## About TabZen
 
-Make sure to install dependencies:
+TabZen removes promotional overlays from popular tab websites, letting you enjoy clean, focused viewing for your practice sessions.
 
-```bash
-# npm
-npm install
+## How to Access the Site
 
-# pnpm
-pnpm install
+Visit **[tabzen.app](https://tabzen.app)** to learn more, download the extension, and explore its features.
 
-# yarn
-yarn install
+## Development Setup
 
-# bun
-bun install
-```
+This site is built using Nuxt.js, Tailwind CSS, and GSAP to create a smooth, responsive experience for potential users. 
 
-## Development Server
+To set up the site locally:
 
-Start the development server on `http://localhost:3000`:
+1. Clone the repo: `git clone https://github.com/yourusername/tabzen-landing-page.git`
+2. Navigate to the directory: `cd tabzen-landing-page`
+3. Install dependencies: `npm install`
+4. Start the local server: `npm run dev`
 
-```bash
-# npm
-npm run dev
+## Contributing
 
-# pnpm
-pnpm dev
+Contributions to the landing page are welcome. Feel free to submit a pull request with any improvements or fixes.
 
-# yarn
-yarn dev
+## License
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This landing page project is also licensed under the MIT License.

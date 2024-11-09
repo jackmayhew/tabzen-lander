@@ -4,7 +4,7 @@
       <div class="text-center">
         <h1 class="gsap-title text-5xl font-semibold font-display text-balance text-blue-950 sm:text-7xl opacity-0">Take Back Your Tabs!</h1>
         <p class="gsap-p mt-4 text-slate-600 text-base max-w-2xl mx-auto opacity-0">
-          TabZen is a browser extension that enhances your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays from tab websites.
+           Your tabs, distraction-free. TabZen blocks intrusive ads to give you a cleaner view of guitar, bass, and drum tabs.
         </p>
         <div class="gsap-btns mt-6 flex flex-col lg:flex-row lg:items-center w-full opacity-0">
           <div class="relative flex flex-col justify-center gap-2 md:flex-row xs:w-1/2 xs:mx-auto md:w-full">
