@@ -4,7 +4,7 @@
       <div class="text-center">
         <h1 class="gsap-title text-5xl font-semibold font-display text-balance text-blue-950 sm:text-7xl opacity-0">Take Back Your Tabs!</h1>
         <p class="gsap-p mt-4 text-slate-600 text-base max-w-2xl mx-auto opacity-0">
-          Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of guitar, bass, and drum tabs.
+          Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs.
         </p>
         <div class="gsap-btns mt-6 flex flex-col lg:flex-row lg:items-center w-full opacity-0">
           <div class="relative flex flex-col justify-center gap-2 md:flex-row xs:w-1/2 xs:mx-auto md:w-full">
@@ -20,8 +20,8 @@
         </div>
       </div>
       <div class="grid mt-12 mb-6 sm:mb-16 lg:mb-0 lg:mt-6 lg:grid-cols-2 hero-images">
-        <img src="/images/hero1.png" class="gsap-img rounded-3xl rotate-6 w-full opacity-0" alt="bass tab before tabzen" />
-        <img src="/images/hero2.png" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0" alt="bass tab after tabzen" />
+        <NuxtImg src="/images/hero1.png" width="1336" height="852" class="gsap-img rounded-3xl rotate-6 w-full opacity-0" alt="bass tab before tabzen" />
+        <NuxtImg src="/images/hero2.png" width="1336" height="852" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0" alt="bass tab after tabzen" />
       </div>
     </div>
   </section>
