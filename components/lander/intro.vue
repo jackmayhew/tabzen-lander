@@ -6,7 +6,7 @@
           Your Tabs, Simplified
         </p>
         <p class="text-slate-600 mt-4 md:w-3/4 mx-auto">
-          Stay focused on your tabs. Access your favorite tab sites like Songsterr and Ultimate Guitar without the clutter.
+          Stay focused on your tabs. Access your favorite tab sites like Songsterr and Ultimate Guitar without the visual clutter.
         </p>
       </div>
       <ul class="grid grid-cols-1 mt-12 list-none md:grid-cols-2 gap-2 text-center" role="list">

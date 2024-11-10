@@ -20,8 +20,8 @@
         </div>
       </div>
       <div class="grid mt-12 mb-6 sm:mb-16 lg:mb-0 lg:mt-6 lg:grid-cols-2 hero-images">
-        <NuxtImg src="/images/hero1.png" width="1336" height="852" class="gsap-img rounded-3xl rotate-6 w-full opacity-0" alt="bass tab before tabzen" />
-        <NuxtImg src="/images/hero2.png" width="1336" height="852" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0" alt="bass tab after tabzen" />
+        <NuxtImg preload src="/images/hero1.png" width="1336" height="852" class="gsap-img rounded-3xl rotate-6 w-full opacity-0" alt="bass tab before tabzen" />
+        <NuxtImg preload src="/images/hero2.png" width="1336" height="852" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0" alt="bass tab after tabzen" />
       </div>
     </div>
   </section>
