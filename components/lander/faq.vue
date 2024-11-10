@@ -5,7 +5,7 @@
         <div>
           <div class="lg:col-span-2 mx-auto text-center lg:w-4/5 lg:mx-auto">
             <p class="text-4xl lg:text-6xl font-semibold font-display text-blue-950">
-              Your TabZen Questions, Answered
+              Questions? We've Got Answers!
             </p>
             <p class="text-slate-600 mt-4 md:w-3/4 mx-auto">
               Get all the details on how TabZen works and what it can do for your tab-viewing experience.
@@ -21,10 +21,10 @@
               <li class="text-slate-600">
                 <strong class="font-display text-2xl text-blue-950"> Which websites does TabZen work on?</strong> <br>
                 TabZen currently targets the following popular tab sites:
-                <ul class="ml-4 mt-2 list-disc text-slate-600">
-                  <li>Ultimate Guitar</li>
-                  <li>Songsterr</li>
-                  <li>Chordify</li>
+                <ul class="ml-4 mt-2 list-disc text-slate-600 flex flex-wrap">
+                  <li v-for="site in tabSites" :key="site.name" class="w-full md:w-1/2">
+                    <a :href="site.url" target="_blank" rel="noopener" class="hover:underline">{{ site.name }}</a>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -42,6 +42,14 @@ const faqs = [
   { id: 3, question: 'Will TabZen interfere with my ability to interact with tabs?', answer: "No, TabZen only hides non-essential elements, leaving the interactive parts of your tabs fully functional." },
   { id: 4, question: 'Does TabZen require any setup or configuration?', answer: 'No, TabZen is a plug-and-play extension. Simply install it, and it will automatically start decluttering your tab-viewing experience.' },
   { id: 5, question: 'Is TabZen free to use?', answer: 'Yes, TabZen is a free Chrome extension available to all users.' },
+]
+const tabSites = [
+  { name: 'Songsterr', url: 'https://www.songsterr.com' },
+  { name: 'Ultimate Guitar', url: 'https://www.ultimate-guitar.com' },
+  { name: 'Chordify', url: 'https://chordify.net' },
+  { name: 'Big Bass Tabs', url: 'https://www.bigbasstabs.com' },
+  { name: '911Tabs', url: 'https://www.911tabs.com/guitar_tabs/' },
+  { name: 'Guitar Tab Universe', url: 'https://www.guitartabs.cc' },
 ]
 </script>
 

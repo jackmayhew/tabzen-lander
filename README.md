@@ -4,7 +4,7 @@ The TabZen landing page is a promotional website for the **[tabzen browser exten
 
 ## About TabZen
 
-TabZen blocks intrusive ads, giving you a cleaner view of guitar, bass, and drum tabs.
+TabZen blocks intrusive ads on popular tab webstes, giving a cleaner view of guitar, bass, and drum tabs.
 
 ## How to Access the Site
 

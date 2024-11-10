@@ -3,11 +3,10 @@
     <div class="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
       <div class="lg:col-span-2 mx-auto text-center lg:w-4/5 lg:mx-auto">
         <p class="text-4xl lg:text-6xl font-semibold font-display text-blue-950 ">
-          Navigate Your Favorite Tab Sites Effortlessly
+          Your Tabs, Simplified
         </p>
         <p class="text-slate-600 mt-4 md:w-3/4 mx-auto">
-          Stay immersed in your tabs. TabZen provides a clean and focused tab-viewing experience on websites like
-          Songsterr and Ultimate Guitar.
+          Stay focused on your tabs. Access your favorite tab sites like Songsterr and Ultimate Guitar without the clutter.
         </p>
       </div>
       <ul class="grid grid-cols-1 mt-12 list-none md:grid-cols-2 gap-2 text-center" role="list">

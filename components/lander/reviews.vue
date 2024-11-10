@@ -3,11 +3,10 @@
     <div class="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
       <div class="lg:col-span-2 mx-auto text-center lg:w-4/5 lg:mx-auto">
         <p class="text-4xl lg:text-6xl font-semibold font-display text-blue-950">
-          Real Users, Real Results with TabZen
+          What Musicians Are Saying
         </p>
         <p class="text-slate-600 mt-4 md:w-3/4 mx-auto">
-          Hear what users have to say about the transformative power of TabZen.
-          See how it's improved their online tab experience.
+          Discover what users are saying about their TabZen experience.
         </p>
       </div>
       <ol role="list" class="grid grid-cols-1 gap-y-8 gap-x-2 mt-12 text-center lg:grid-cols-3">

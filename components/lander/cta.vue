@@ -5,10 +5,10 @@
         <div class="flex flex-col relative">
           <div class="lg:col-span-2 mx-auto text-center lg:w-4/5 lg:mx-auto">
             <p class="text-4xl lg:text-6xl font-semibold font-display text-blue-950">
-              Discover the Power of Distraction-Free Tabs
+              Start Playing Without Distractions
             </p>
             <p class="text-slate-600 mt-4 md:w-3/4 mx-auto">
-              Download TabZen and experience seamless, focused tab and chord viewing.
+              Download TabZen and transform your tab viewing experience.
             </p>
           </div>
           <div class="mt-8 flex flex-col md:flex-row lg:items-center w-full justify-center">
