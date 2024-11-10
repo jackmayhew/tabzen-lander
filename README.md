@@ -1,18 +1,18 @@
 # TabZen Landing Page
 
-The TabZen landing page is a promotional website for the **[tabzen.app](https://github.com/jackmayhew/tabzen-extension)** browser extension.
+The TabZen landing page is a promotional website for the **[tabzen browser extension](https://github.com/jackmayhew/tabzen-extension)**.
 
 ## About TabZen
 
-TabZen removes promotional overlays from popular tab websites, letting you enjoy clean, focused viewing for your practice sessions.
+TabZen blocks intrusive ads, giving you a cleaner view of guitar, bass, and drum tabs.
 
 ## How to Access the Site
 
-Visit **[tabzen.app](https://tabzen.app)** to learn more, download the extension, and explore its features.
+Visit **[tabzen.app](https://tabzen.app)** to learn more, and explore its features.
 
 ## Development Setup
 
-This site is built using Nuxt.js, Tailwind CSS, and GSAP to create a smooth, responsive experience for potential users. 
+This site is built using Nuxt.js, Tailwind CSS, and GSAP. 
 
 To set up the site locally:
 
