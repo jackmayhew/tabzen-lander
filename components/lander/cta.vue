@@ -13,11 +13,11 @@
           </div>
           <div class="mt-8 flex flex-col md:flex-row lg:items-center w-full justify-center">
             <div class="relative flex flex-col gap-2 lg:flex-row">
-              <a aria-label="yAdd to Chrome"  href="#"
+              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Add to Chrome"
                 class="items-center inline-flex w-full focus:outline-disc bg-blue-500 hover:-translate-y-1 duration-200 focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-600 justify-center px-6 py-1 rounded-full text-white text-center text-sm">
                 Add to Chrome
               </a>
-              <a aria-label="Add to Firefox" href="#"
+              <a href="https://addons.mozilla.org/addon/tabzen-tabscleaner/" target="_blank" rel="noopener noreferrer" aria-label="Add to Firefox" 
                 class="items-center inline-flex w-full focus:outline-disc bg-blue-50 hover:-translate-y-1 duration-200 focus:ring-2 focus:ring-blue-60 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-100 gap-3 justify-center px-6 py-1 rounded-full text-blue-600 text-center text-sm">
                 Add to Firefox
               </a>

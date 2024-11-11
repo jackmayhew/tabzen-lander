@@ -8,11 +8,11 @@
         </p>
         <div class="gsap-btns mt-6 flex flex-col lg:flex-row lg:items-center w-full opacity-0">
           <div class="relative flex flex-col justify-center gap-2 md:flex-row xs:w-1/2 xs:mx-auto md:w-full">
-            <a aria-label="Add to Chrome" href="#"
+            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Add to Chrome"
               class="items-center inline-flex w-full hover:-translate-y-1 focus:outline-disc bg-blue-500 duration-200 focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-600 justify-center px-6 py-1 rounded-full text-white text-center text-sm">
               Add to Chrome
             </a>
-            <a aria-label="Add to Firefox" href="#"
+            <a href="https://addons.mozilla.org/addon/tabzen-tabscleaner/" target="_blank" rel="noopener noreferrer" aria-label="Add to Firefox"
               class="items-center inline-flex w-full hover:-translate-y-1 focus:outline-disc bg-blue-50 duration-200 focus:ring-2 focus:ring-blue-60 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-100 gap-3 justify-center px-6 py-1 rounded-full text-blue-600 text-center text-sm">
               Add to Firefox
             </a>
@@ -20,8 +20,10 @@
         </div>
       </div>
       <div class="grid mt-12 mb-6 sm:mb-16 lg:mb-0 lg:mt-6 lg:grid-cols-2 hero-images">
-        <NuxtImg preload src="/images/hero1.png" width="1336" height="852" class="gsap-img rounded-3xl rotate-6 w-full opacity-0" alt="bass tab before tabzen" />
-        <NuxtImg preload src="/images/hero2.png" width="1336" height="852" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0" alt="bass tab after tabzen" />
+        <!-- <NuxtImg preload src="/images/hero1.png" width="1336" height="852" class="gsap-img rounded-3xl rotate-6 w-full opacity-0" alt="bass tab before tabzen" />
+        <NuxtImg preload src="/images/hero2.png" width="1336" height="852" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0" alt="bass tab after tabzen" /> -->
+        <img src="/images/hero1.png" class="gsap-img rounded-3xl rotate-6 w-full opacity-0" alt="bass tab before tabzen" />
+        <img src="/images/hero2.png" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0" alt="bass tab after tabzen" />
       </div>
     </div>
   </section>

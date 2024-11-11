@@ -30,8 +30,8 @@ export function setupHead(title) {
       { rel: "manifest", href: "/favicon/site.webmanifest" },
       { rel: "canonical", href: "https://tabzen.app/" },
       // preloads
-      // { rel: "preload", href: "/images/hero1.png", as: "image" },
-      // { rel: "preload", href: "/images/hero2.png", as: "image" },
+      { rel: "preload", href: "/images/hero1.png", as: "image" },
+      { rel: "preload", href: "/images/hero2.png", as: "image" },
       { rel: "preload", href: "/logo/logo.svg", as: "image" },
       { rel: "stylesheet", href: "/font-files/InterVariable-Italic.woff2", as: "font", type: "font/woff2", crossorigin: "anonymous" },
       // { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" }
