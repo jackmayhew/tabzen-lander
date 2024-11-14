@@ -3,7 +3,7 @@
     <div class="px-8 md:px-12 lg:px-32 max-w-7xl 2xl:max-w-7xl mx-auto">
       <div class="gap-8 flex flex-col md:flex-row md:items-center md:justify-between">
         <a aria-label="TabZen" href="https://tabzen.app/" class="inline-flex items-center text-blue-950 font-display">
-          <img src="../../public/logo/logo.svg" class="h-[40px] md:h-[50px]" alt="tabzen logo" />
+          <img src="../../public/logo/logo.svg" class="h-[40px] md:h-[50px] w-auto" alt="tabzen logo" />
         </a>
         <div class="lg:col-span-full lg:ml-auto">
           <ul role="list" class="flex flex-col gap-1 md:flex-row md:items-center md:gap-4 lg:gap-6 w-fit">

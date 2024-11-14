@@ -5,7 +5,7 @@
         <nav class="w-full relative">
           <div class="flex flex-wrap items-center justify-between mx-auto relative">
             <a href="https://tabzen.app/" class="inline-flex items-center text-blue-950">
-              <img src="../../public/logo/logo.svg" class="h-[30px] md:h-[35px]" alt="TabZen Logo">
+              <img src="../../public/logo/logo.svg" class="h-[30px] md:h-[35px] w-auto" alt="TabZen Logo">
             </a>
             <button ref="burgerButton" @click="toggleMobileMenu" aria-label="Toggle Menu"
               class="inline-flex items-center justify-center pr-0 text-blue-950 hover:text-blue-500 focus:outline-none focus:text-blue-500 md:hidden">
