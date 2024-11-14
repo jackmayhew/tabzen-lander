@@ -5,21 +5,22 @@ export function setupHead(title) {
       lang: 'en',
     },
     meta: [
-      { name: "description", content: "Enhance your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
+      { name: "description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
       { charset: "UTF-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1.0" },
       // open graph / facebook
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "TabZen" },
       { property: "og:url", content: "https://tabzen.app/" },
       { property: "og:title", content: "TabZen" },
-      { property: "og:description", content: "Enhance your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
-      { property: "og:image", content: "../../public/logo/logo.svg" },
+      { property: "og:description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
+      { property: "og:image", content: "/logo/logo.svg" },
       // twitter
       { property: "twitter:card", content: "summary_large_image" },
       { property: "twitter:url", content: "https://tabzen.app/" },
       { property: "twitter:title", content: "TabZen" },
-      { property: "twitter:description", content: "Enhance your viewing experience for guitar, bass, and drum tabs & chords by removing intrusive promotional overlays." },
-      { property: "twitter:image", content: "../../public/logo/logo.svg" }
+      { property: "twitter:description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
+      { property: "twitter:image", content: "/logo/logo.svg" }
     ],
     link: [
       // favicons
