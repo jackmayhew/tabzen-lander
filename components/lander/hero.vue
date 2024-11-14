@@ -8,7 +8,7 @@
         </p>
         <div class="gsap-btns mt-6 flex flex-col lg:flex-row lg:items-center w-full opacity-0 invisible">
           <div class="relative flex flex-col justify-center gap-2 md:flex-row xs:w-1/2 xs:mx-auto md:w-full">
-            <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Add to Chrome"
+            <a href="https://chromewebstore.google.com/detail/tabzen/glhjidjakmdcolgmafkpnnkkojegfilj" target="_blank" rel="noopener noreferrer" aria-label="Add to Chrome"
               class="items-center inline-flex w-full hover:-translate-y-1 focus:outline-disc bg-blue-500 duration-200 focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-600 justify-center px-6 py-1 rounded-full text-white text-center text-sm">
               Add to Chrome
             </a>

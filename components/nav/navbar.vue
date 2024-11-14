@@ -27,7 +27,7 @@
                   </a>
                 </li>
                 <li class="hidden md:flex">
-                  <a aria-label="Add to Firefox" href="#"
+                  <a aria-label="Add to Chrome" href="https://chromewebstore.google.com/detail/tabzen/glhjidjakmdcolgmafkpnnkkojegfilj" target="_blank" rel="noopener noreferrer"
                     class="items-center inline-flex w-full hover:-translate-y-1 focus:outline-disc bg-blue-50 duration-200 focus:ring-2 focus:ring-blue-60 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-100 gap-3 justify-center px-6 py-1 rounded-full text-blue-600 text-center text-sm">
                     Add to Chrome
                   </a>

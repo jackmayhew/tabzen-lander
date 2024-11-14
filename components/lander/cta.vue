@@ -13,7 +13,7 @@
           </div>
           <div class="mt-8 flex flex-col md:flex-row lg:items-center w-full justify-center">
             <div class="relative flex flex-col gap-2 lg:flex-row">
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Add to Chrome"
+              <a href="https://chromewebstore.google.com/detail/tabzen/glhjidjakmdcolgmafkpnnkkojegfilj" target="_blank" rel="noopener noreferrer" aria-label="Add to Chrome"
                 class="items-center inline-flex w-full focus:outline-disc bg-blue-500 hover:-translate-y-1 duration-200 focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 font-medium md:w-auto h-12 hover:bg-blue-600 justify-center px-6 py-1 rounded-full text-white text-center text-sm">
                 Add to Chrome
               </a>
