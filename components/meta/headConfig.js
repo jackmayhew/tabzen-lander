@@ -14,13 +14,13 @@ export function setupHead(title) {
       { property: "og:url", content: "https://tabzen.app/" },
       { property: "og:title", content: "TabZen" },
       { property: "og:description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
-      { property: "og:image", content: "/logo/logo.svg" },
+      { property: "og:image", content: "https://tabzen.app/logo/logo.svg" },
       // twitter
       { property: "twitter:card", content: "summary_large_image" },
       { property: "twitter:url", content: "https://tabzen.app/" },
       { property: "twitter:title", content: "TabZen" },
       { property: "twitter:description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
-      { property: "twitter:image", content: "/logo/logo.svg" }
+      { property: "twitter:image", content: "https://tabzen.app/logo/logo.svg" }
     ],
     link: [
       // favicons
