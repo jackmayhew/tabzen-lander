@@ -1,17 +1,6 @@
-<template>
-    <div class="selection:bg-blue-500 selection:text-white bg-white flex flex-col min-h-svh">
-        <Navbar />
-        <NuxtPage />
-        <Footer />
-    </div>
-</template>
-
-<script setup>
-import { setupHead } from '~/composables/useHead.js';
-
-// setupHead("TabZen - Focused Tab Viewing")
-useHead({
-    title: "TabZen - Focused Tab Viewing",
+export function setupHead(title) {
+  useHead({
+    title: title,
     htmlAttrs: {
       lang: 'en',
     },
@@ -25,13 +14,13 @@ useHead({
       { property: "og:url", content: "https://tabzen.app/" },
       { property: "og:title", content: "TabZen" },
       { property: "og:description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
-      { property: "og:image", content: "https://tabzen.app/images/og.png" },
+      { property: "og:image", content: "https://tabzen.app/logo/logo.svg" },
       // twitter
       { property: "twitter:card", content: "summary_large_image" },
       { property: "twitter:url", content: "https://tabzen.app/" },
       { property: "twitter:title", content: "TabZen" },
       { property: "twitter:description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
-      { property: "og:image", content: "https://tabzen.app/images/og.png" },
+      { property: "twitter:image", content: "https://tabzen.app/logo/logo.svg" }
     ],
     link: [
       // favicons
@@ -49,6 +38,5 @@ useHead({
       // { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" }
     ],
   });
-</script>
+}
 
-<style scoped></style>

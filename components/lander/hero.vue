@@ -25,12 +25,8 @@
         </div>
       </div>
       <div class="grid mt-12 mb-6 sm:mb-16 lg:mb-0 lg:mt-6 lg:grid-cols-2 hero-images">
-        <!-- <NuxtImg preload src="/images/hero1.png" width="1336" height="852" class="gsap-img rounded-3xl rotate-6 w-full opacity-0" alt="bass tab before tabzen" />
-        <NuxtImg preload src="/images/hero2.png" width="1336" height="852" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0" alt="bass tab after tabzen" /> -->
-        <img src="/images/hero.webp" class="gsap-img rounded-3xl rotate-6 w-full opacity-0 invisible"
-          alt="bass tab before tabzen" />
-        <img src="/images/hero2.webp" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0 invisible"
-          alt="bass tab after tabzen" />
+        <img src="/images/hero.webp" class="gsap-img rounded-3xl rotate-6 w-full opacity-0 invisible" alt="bass tab before tabzen" />
+        <img src="/images/hero2.webp" class="gsap-img rounded-3xl -rotate-12 w-full opacity-0 invisible" alt="bass tab after tabzen" />
       </div>
     </div>
   </section>
@@ -55,7 +51,7 @@ onMounted(() => {
         { y: 0, autoAlpha: 1, duration: 0.5, ease: "power2.out" }, "<")
       .fromTo(".gsap-img",
         { y: 75, autoAlpha: 0 },
-        { y: 0, autoAlpha: 1, stagger: 0.2, delay: 0.2, duration: 0.75, ease: "power2.out" }, "<");
+        { y: 0, autoAlpha: 1, stagger: 0.2, duration: 0.75, ease: "power2.out" }, "<");
   });
   return () => context.revert();
 });
