@@ -29,7 +29,7 @@ export function setupHead(title) {
       { rel: "shortcut icon", href: "/favicon/favicon.ico" },
       { rel: "apple-touch-icon", sizes: "180x180", href: "/favicon/apple-touch-icon.png" },
       { rel: "manifest", href: "/favicon/site.webmanifest" },
-      { rel: "canonical", href: "https://tabzen.app/" },
+      { rel: "canonical", href: "https://tabzen.app" },
       // preloads
       { rel: "preload", href: "/images/hero1.png", as: "image" },
       { rel: "preload", href: "/images/hero2.png", as: "image" },
