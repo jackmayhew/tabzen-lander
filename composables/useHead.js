@@ -1,6 +1,6 @@
 export function setupHead(title) {
   useHead({
-    title: title,
+    title: "TabZen - Focused Tab Viewing",
     htmlAttrs: {
       lang: 'en',
     },
@@ -14,13 +14,13 @@ export function setupHead(title) {
       { property: "og:url", content: "https://tabzen.app/" },
       { property: "og:title", content: "TabZen" },
       { property: "og:description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
-      { property: "og:image", content: "https://tabzen.app/logo/logo.svg" },
+      { property: "og:image", content: "https://tabzen.app/images/og.png" },
       // twitter
       { property: "twitter:card", content: "summary_large_image" },
       { property: "twitter:url", content: "https://tabzen.app/" },
       { property: "twitter:title", content: "TabZen" },
       { property: "twitter:description", content: "Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs." },
-      { property: "twitter:image", content: "https://tabzen.app/logo/logo.svg" }
+      { property: "og:image", content: "https://tabzen.app/images/twitter.png" },
     ],
     link: [
       // favicons
@@ -35,7 +35,6 @@ export function setupHead(title) {
       { rel: "preload", href: "/images/hero2.png", as: "image" },
       { rel: "preload", href: "/logo/logo.svg", as: "image" },
       { rel: "stylesheet", href: "/font-files/InterVariable-Italic.woff2", as: "font", type: "font/woff2", crossorigin: "anonymous" },
-      // { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" }
     ],
   });
 }
