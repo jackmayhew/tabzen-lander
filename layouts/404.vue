@@ -5,9 +5,9 @@
 </template>
 
 <script setup>
-import { setupHead } from '../components/meta/headConfig.js'
+// import { setupHead } from '../components/meta/headConfig.js'
 
-setupHead("TabZen - Page Not Found")
+// setupHead("TabZen - Page Not Found")
 </script>
 
 <style scoped></style>

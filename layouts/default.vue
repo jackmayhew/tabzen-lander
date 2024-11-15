@@ -7,7 +7,7 @@
 </template>
 
 <script setup>
-import { setupHead } from '~/composables/useHead.js';
+// import { setupHead } from '~/composables/useHead.js';
 
 // setupHead("TabZen - Focused Tab Viewing")
 useHead({
