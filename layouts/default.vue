@@ -53,7 +53,7 @@ useHead({
 
 useSeoMeta({
     title: 'TabZen - Focused Tab Viewing',
-    ogTitle: 'TabZen - Focused Tab Viewinge',
+    ogTitle: 'TabZen - Focused Tab Viewing',
     description: 'Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs.',
     ogDescription: 'Your tabs, distraction-free. TabZen blocks intrusive ads, giving you a cleaner view of your guitar, bass, and drum tabs.',
     ogImage: 'https://tabzen.app/images/og.png',

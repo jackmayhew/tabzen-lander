@@ -51,7 +51,7 @@ onMounted(() => {
         { y: 0, autoAlpha: 1, duration: 0.5, ease: "power2.out" }, "<")
       .fromTo(".gsap-img",
         { y: 75, autoAlpha: 0 },
-        { y: 0, autoAlpha: 1, stagger: 0.2, duration: 0.75, ease: "power2.out" }, "<");
+        { y: 0, autoAlpha: 1, delay: 0.2, stagger: 0.2, duration: 0.75, ease: "power2.out" }, "<");
   });
   return () => context.revert();
 });

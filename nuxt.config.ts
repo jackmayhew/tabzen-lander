@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   // ssr: false,
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', "@nuxt/image"],
+  modules: ['@nuxtjs/tailwindcss', "@nuxt/image", "nuxt-gtag"],
   css: ["~/assets/tailwind.css"],
   components: [
     {
@@ -11,4 +11,7 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  gtag: {
+    id: 'G-L7F0EXLNGS'
+  }
 })
