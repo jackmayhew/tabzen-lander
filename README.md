@@ -1,6 +1,6 @@
 # TabZen Landing Page
 
-The TabZen landing page is a promotional website for the **[tabzen browser extension](https://github.com/jackmayhew/tabzen-extension)**.
+The TabZen landing page for **[tabzen browser extension](https://github.com/jackmayhew/tabzen-extension)**.
 
 ## About TabZen
 
